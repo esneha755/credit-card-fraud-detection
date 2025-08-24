@@ -1,9 +1,18 @@
-# credit-card-fraud-detection
-A machine learning project to detect fraudulent credit card transactions
-#DATASETS 
-Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)  
-- Contains **284,807 transactions**, of which only **492 are frauds** (~0.17%).  
-- Highly **imbalanced dataset**.
+# Credit Card Fraud Detection
+A machine learning project to detect fraudulent credit card transactions using various ML algorithms and techniques.
+
+## Dataset
+The project uses the Credit Card Fraud Detection dataset from Kaggle.
+- **Source**: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+- Contains **284,807 transactions**, of which only **492 are frauds** (~0.17%)
+- Highly **imbalanced dataset**
+
+### Getting the Data
+1. Download the dataset from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+2. Place the `creditcard.csv` file in the `data/` directory
+3. The file should be located at `data/creditcard.csv`
+
+Note: The dataset file is large (~143 MB) and is not included in the repository.
 # Project Structure 
 
 credit-card-fraud-detection/
